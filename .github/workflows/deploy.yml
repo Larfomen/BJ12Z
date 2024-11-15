@@ -14,6 +14,6 @@ jobs:
         env:
           RTH_API_KEY: ${{ 128168ae-cacc-4743-aa94-44a2df49ddf3 }}
         with:
-          site: "https://bj12tv.rth5.com/"  # 修改 example 为您的网站名称
-          build: "/build"  # 修改 build 为您的构建命令
-          outdir: "/dist"  # 修改 dist 为您的构建输出目录
+          site: "bj12tv"  # 修改 example 为您的网站名称
+          build: ""  # 修改 build 为您的构建命令
+          outdir: "."  # 修改 dist 为您的构建输出目录
