@@ -12,7 +12,7 @@ jobs:
       - name: Deploy to Retinbox Web Hosting
         uses: rthsoftware/host-auto-deploy@master
         env:
-          RTH_API_KEY: ${{ secrets.RTH_API_KEY }}
+          RTH_API_KEY: ${{ 128168ae-cacc-4743-aa94-44a2df49ddf3 }}
         with:
           site: "https://bj12tv.rth5.com/"  # 修改 example 为您的网站名称
           build: "/build"  # 修改 build 为您的构建命令
